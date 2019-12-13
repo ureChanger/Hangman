@@ -1,6 +1,7 @@
 import random
 
 class Word:
+
     def __init__(self, filename):
         self.words = []
         f = open(filename, 'r')
